@@ -1,0 +1,27 @@
+{
+  "name": "vcx-proxy",
+  "version": "1.0.0",
+  "description": "VCX Proxy Secure Access Panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "vcx",
+    "proxy",
+    "dashboard",
+    "login",
+    "express",
+    "railway"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
